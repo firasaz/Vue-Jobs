@@ -6,10 +6,10 @@
 
     const form = reactive({
         type: 'Full-Time',
-        title: 'job title',
-        description: 'job description',
-        salary: '$50K - $60K',
-        location: 'job location',
+        title: '',
+        description: '',
+        salary: '',
+        location: '',
         company: {
             name: '',
             description: '',
