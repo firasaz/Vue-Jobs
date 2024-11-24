@@ -19,7 +19,7 @@ defineProps({
 
 onMounted(async () => {
     try {
-        const response = await axios.get('/data/jobs.json')
+        const response = await axios.get('/data/jobs2.json')
         state.jobs = response.data
     } catch (error) {
         console.error("Error loading jobs...", error)
